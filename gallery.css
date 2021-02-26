@@ -71,6 +71,10 @@ body {
     border-bottom: 2px solid rgb(0, 0, 0);
 }
 
+.navbar-links a:hover {
+    color: rgb(41, 41, 41);
+}
+
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -101,7 +105,7 @@ body {
 .welcome-container {
     margin: 0 auto;
     width: 1100px;
-    margin-top: 130px;
+    margin-top: 140px;
     border-radius: 12px;
 }
 
