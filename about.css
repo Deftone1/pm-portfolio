@@ -172,13 +172,25 @@ margin:0 auto;
 }
 
 .card-2 {
-    background: transparent;
+    
+    
     border-radius: 6px;
     background-size: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.372);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.372); */
     padding: 6px;
     text-align: center;
     height: 500px;
+}
+
+.bio-wrap {
+    padding: 1px 20px 1px 10px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.18);
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: black;
+    
 }
 
 .image {
@@ -188,6 +200,28 @@ margin:0 auto;
     object-fit: contain;
     background-size: cover;
 }
+
+.resume-btn {
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 2px;
+    text-decoration: none;
+    background: rgb(72, 142, 186);
+    color: white;
+    padding: 8px 10px 8px 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.372);
+    
+}
+
+.resume-btn:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease all;
+    
+
+}
+    
 
 @media (max-width: 768px) {
     .toggle-button {
@@ -246,6 +280,8 @@ margin:0 auto;
         display: block;
         margin-bottom: 20px;
     }
+
+    
 }
 
 @media screen and (max-width: 992px) {
