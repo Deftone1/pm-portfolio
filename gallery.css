@@ -4,7 +4,7 @@
 
 html {
     height: 100vh;
-    background: url("img-13.jpg");
+    background: url("/images/img-13.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -105,7 +105,7 @@ body {
 .welcome-container {
     margin: 0 auto;
     width: 1100px;
-    margin-top: 140px;
+    margin-top: 130px;
     border-radius: 12px;
 }
 

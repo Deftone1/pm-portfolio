@@ -4,7 +4,7 @@
 
 html {
     height: 100vh;
-    background: url("img-11.jpg");
+    background: url("/images/img-11.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -103,7 +103,7 @@ body {
 .welcome-container {
     margin: 0 auto;
     width: 1100px;
-    margin-top: 180px;
+    margin-top: 130px;
     border-radius: 12px;
 }
 
@@ -206,7 +206,7 @@ h1 {
         margin-top: 40px;
     }
     h1 {
-        font-size: 40px;
+        font-size: 60px;
         text-align: center;
     }
     .brand-title {
