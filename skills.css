@@ -145,7 +145,8 @@ margin:0 auto;
 .column {
     float: left;
     width: 25%;
-    padding: 0 10px;
+    padding: 0 70px;
+    padding-top: 50px;
 }
 
 .row:after {
@@ -158,15 +159,19 @@ margin:0 auto;
     position: relative;
     display: flex;
     flex-flow: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     /* this adds the "card" effect */
     padding: 8px;
     text-align: center;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     border-radius: 4px;
     margin-bottom: 12px;
+    
     margin: 4px;
     cursor: pointer;
+    height: 150px;
+    width: 150px;
+    
     
 }
 
