@@ -141,42 +141,7 @@ h1 {
     padding: 0 30px;
 }
 
-.card-1 {
-    background: url("/img-7.jpg");
-    background-size: cover;
-    border-radius: 6px;
-    background-position: bottom;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.372);
-    /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    height: 300px;
-    background-color: #f1f1f1;
-}
 
-.card-2 {
-    background: url("/img-6.jpg");
-    border-radius: 6px;
-    background-size: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.372);
-    padding: 16px;
-    text-align: center;
-    height: 300px;
-    
-}
-
-.card-2 p {
-    /* background: rgba(0, 0, 0, 0.591); */
-    height: 100%;
-    padding: 8px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    
-    
-}
 
 .welcome-message {
     background: rgba(255, 255, 255, 0.029);

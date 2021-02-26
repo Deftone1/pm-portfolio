@@ -4,7 +4,7 @@
 
 html {
     height: 100vh;
-    background: url("/images/img-11.jpg");
+    background: url("./images/img-11.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
