@@ -40,7 +40,15 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
+   
+}
+
+.brand-title a {
+    text-decoration: none;
+    font-family: 'Reem Kufi', sans-serif;
+    color: rgba(255, 255, 255, 0.92);
     text-shadow: -8px 8px 0px #00e6e617, -10px 10px 0px #01cccc0f, -16px 16px 0px #00bdbd1d;
+   
 }
 
 .navbar-links ul {

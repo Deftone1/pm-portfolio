@@ -40,6 +40,13 @@ body {
     text-shadow: -6px 6px 0px #006d6d3f, -10px 10px 0px #00838337, -7px 7px 0px #00bdbd2c;
 }
 
+.brand-title a {
+    text-decoration: none;
+    text-shadow: -6px 6px 0px #006d6d3f, -10px 10px 0px #00838337, -7px 7px 0px #00bdbd2c;
+    font-family: 'Reem Kufi', sans-serif;
+    color: #ffffff;
+}
+
 .navbar-links ul {
     margin: 0;
     margin-right: 2rem;
