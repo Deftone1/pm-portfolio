@@ -24,16 +24,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(230, 230, 230, 0.399);
+    background: rgba(0, 0, 0, 0.769);
     color: white;
     padding-bottom: 18px;
 }
 
-.brand-title:hover {
-    transition: 0.9s ease-in-out;
-    color: aquamarine;
-    font-size: 4rem;
-}
+
 
 .brand-title {
     margin-top: 8px;
@@ -44,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
-    text-shadow: -8px 8px 0px #00e6e658, -10px 10px 0px #01cccc35, -16px 16px 0px #00bdbd37;
+    text-shadow: -8px 8px 0px #00e6e617, -10px 10px 0px #01cccc0f, -16px 16px 0px #00bdbd1d;
 }
 
 .navbar-links ul {
@@ -64,7 +60,7 @@ body {
 
 .navbar-links a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 0.5rem;
     display: block;
     font-size: 1.2rem;
@@ -110,7 +106,7 @@ body {
 
 .image-container {
     height: 80vh;
-    background: url("./images/img-3.jpg");
+    background: url("./images/img-3c.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
