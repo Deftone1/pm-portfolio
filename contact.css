@@ -241,7 +241,7 @@ h4 {
         font-size: 2rem;
     }
     .card-content {
-        font-size: 14px;
+        display: none;
     }
     .footer {
         margin-top: 300px;
