@@ -115,6 +115,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    margin-top: -20px;
     
 
 }
@@ -175,7 +176,7 @@ margin:0 auto;
     margin-bottom: 12px;
     
     margin: 4px;
-    cursor: pointer;
+    
     height: 150px;
     width: 150px;
     
@@ -183,7 +184,7 @@ margin:0 auto;
 }
 
 .card:hover {
-    transform: scale(1.04);
+    transform: scale(1.2);
     transition: 0.3s ease all;
     opacity: 0.6;
   }
@@ -242,6 +243,7 @@ h4 {
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        margin-right: 0;
     }
     .navbar-links li {
         text-align: center;
@@ -249,10 +251,15 @@ h4 {
     .navbar-links li a {
         padding: .5rem;
     }
-    .navbar-links .active {
+    .navbar-links.active {
         display: flex;
     }
+    .navbar-links li:hover {
+        background-color: #242424;
+        border-bottom: none;
+    }
     .welcome-container {
+        
         width: 100%;
         height: 100px;
         margin-top: 160px;
@@ -279,12 +286,17 @@ h4 {
         margin-top: 30px;
         margin: 0 auto;
         width: 100%;
-        ;
+        
         display: block;
         margin-bottom: 20px;
     }
     .footer {
         margin-top: 300px;
+    }
+    .card {
+        padding-right: 0;
+        text-align: center;
+        margin: 0 auto;
     }
 }
 

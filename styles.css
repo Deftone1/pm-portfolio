@@ -190,6 +190,11 @@ h4 {
         width: 100%;
     }
 
+    .navbar-links li:hover {
+        background-color: #242424;
+        border-bottom: none;
+    }
+
     body {
         margin-top: 90px;
     }
@@ -202,14 +207,16 @@ h4 {
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        margin-right: 0;
     }
     .navbar-links li {
         text-align: center;
+        width: 100%;
     }
     .navbar-links li a {
-        padding: .5rem;
+        padding: .5rem 1rem;
     }
-    .navbar-links .active {
+    .navbar-links.active { 
         display: flex;
     }
     .welcome-container {
@@ -266,6 +273,7 @@ h4 {
         display: block;
         margin-bottom: 20px;
     }
+    
 }
 
 

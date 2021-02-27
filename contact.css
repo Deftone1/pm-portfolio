@@ -44,7 +44,6 @@ body {
     text-decoration: none;
     font-family: 'Reem Kufi', sans-serif;
     color: rgba(255, 255, 255, 0.92);
-    
 }
 
 .navbar-links ul {
@@ -128,13 +127,10 @@ h1 {
     width: 600px;
     margin: 0 auto;
     margin-bottom: 40px;
-    
-    
 }
 
 .column-one {
     float: left;
-    
     width: 50%;
     padding: 0 10px;
 }
@@ -158,7 +154,6 @@ h1 {
 .card-content {
     font-size: 1.3rem;
     font-family: 'Questrial', sans-serif;
-    
 }
 
 .card-content a {
@@ -166,13 +161,10 @@ h1 {
     color: black;
 }
 
-
-
 .card:hover {
     color: white;
     transition: 0.4s ease-in-out;
     cursor: pointer;
-
 }
 
 /* Style the counter cards */
@@ -196,7 +188,6 @@ h4 {
     font-family: arial;
     font-family: 'Questrial', sans-serif;
     color: white;
-    
 }
 
 @media (max-width: 768px) {
@@ -219,6 +210,7 @@ h4 {
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        margin-right: 0;
     }
     .navbar-links li {
         text-align: center;
@@ -226,8 +218,12 @@ h4 {
     .navbar-links li a {
         padding: .5rem;
     }
-    .navbar-links .active {
+    .navbar-links.active {
         display: flex;
+    }
+    .navbar-links li:hover {
+        background-color: #242424;
+        border-bottom: none;
     }
     .welcome-container {
         width: 80%;
@@ -244,11 +240,9 @@ h4 {
     .icon {
         font-size: 2rem;
     }
-
     .card-content {
         font-size: 14px;
     }
-
     .footer {
         margin-top: 300px;
     }

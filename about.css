@@ -29,8 +29,6 @@ body {
     padding-bottom: 18px;
 }
 
-
-
 .brand-title {
     margin-top: 8px;
     font-family: 'Reem Kufi', sans-serif;
@@ -40,7 +38,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
-   
 }
 
 .brand-title a {
@@ -48,7 +45,6 @@ body {
     font-family: 'Reem Kufi', sans-serif;
     color: rgba(255, 255, 255, 0.92);
     text-shadow: -8px 8px 0px #00e6e617, -10px 10px 0px #01cccc0f, -16px 16px 0px #00bdbd1d;
-   
 }
 
 .navbar-links ul {
@@ -80,10 +76,6 @@ body {
     border-radius: 2px;
     border-bottom: 2px solid rgb(255, 244, 129);
 }
-
-
-
-
 
 .toggle-button {
     position: absolute;
@@ -119,7 +111,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
+    margin-top: -30px;
 }
 
 .welcome-container {
@@ -127,14 +119,13 @@ body {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    
     margin-top: 250px;
     border-radius: 12px;
 }
 
 h1 {
-text-align: center;
-margin:0 auto;
+    text-align: center;
+    margin: 0 auto;
     font-size: 4rem;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
@@ -160,7 +151,6 @@ margin:0 auto;
     float: left;
     width: 50%;
     padding: 0 30px;
-    
 }
 
 .card-1 {
@@ -172,12 +162,9 @@ margin:0 auto;
     padding: 6px 8px;
     text-align: center;
     /* height: 300px; */
-    
 }
 
 .card-2 {
-    
-    
     border-radius: 6px;
     background-size: cover;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.372); */
@@ -194,7 +181,6 @@ margin:0 auto;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     color: black;
-    
 }
 
 .image {
@@ -206,7 +192,6 @@ margin:0 auto;
 }
 
 .resume-btn {
-    
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1rem;
     border-radius: 2px;
@@ -215,14 +200,12 @@ margin:0 auto;
     color: white;
     padding: 8px 10px 8px 10px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.372);
-    
 }
 
 .resume-btn:hover {
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transition: 0.3s ease all;
-
 }
 
 .footer {
@@ -235,10 +218,7 @@ h4 {
     padding-bottom: 10px;
     font-family: arial;
     font-family: 'Questrial', sans-serif;
-    
 }
-
-    
 
 @media (max-width: 768px) {
     .toggle-button {
@@ -253,13 +233,14 @@ h4 {
     }
     .navbar {
         position: fixed;
-        background: rgba(0, 0, 0, 0.769);
+        background: rgb(0, 0, 0);
         flex-direction: column;
         align-items: flex-start;
     }
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        margin-right: 0;
     }
     .navbar-links li {
         text-align: center;
@@ -267,7 +248,11 @@ h4 {
     .navbar-links li a {
         padding: .5rem;
     }
-    .navbar-links .active {
+    .navbar-links li:hover {
+        background-color: #242424;
+        border-bottom: none;
+    }
+    .navbar-links.active {
         display: flex;
     }
     .welcome-container {
@@ -287,23 +272,18 @@ h4 {
     }
     .row {
         margin-top: 30px;
-        width: 90%;
+        width: 100%;
     }
     .column {
         margin-top: 30px;
         margin: 0 auto;
         width: 100%;
-        
         display: block;
         margin-bottom: 20px;
     }
-
     .footer {
         margin-top: 300px;
     }
-    
-
-    
 }
 
 @media screen and (max-width: 992px) {
@@ -319,7 +299,4 @@ h4 {
         display: block;
         margin-bottom: 20px;
     }
-    
-
-    
 }
