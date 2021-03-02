@@ -149,23 +149,28 @@ h1 {
 
 .card-title {
     font-size: 3rem;
+    margin-bottom: 0.3rem;
 }
 
-.card-content {
+.card a {
+    text-decoration: none;
+    color: black;
     font-size: 1.3rem;
     font-family: 'Questrial', sans-serif;
 }
 
-.card-content a {
-    text-decoration: none;
-    color: black;
-}
-
 .card:hover {
-    color: white;
-    transition: 0.4s ease-in-out;
+    background: rgba(255, 255, 255, 0.178);
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
+
+.card:hover a {
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
 
 /* Style the counter cards */
 
